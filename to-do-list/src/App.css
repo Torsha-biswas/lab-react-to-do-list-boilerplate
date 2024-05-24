@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #00796b;
+}
+
+.MuiTextField-root {
+  margin-bottom: 10px;
+}
+
+.MuiButton-root {
+  background-color: #00796b;
+  color: white;
+}
+
+.MuiButton-root:hover {
+  background-color: #004d40;
+}
+
+.MuiListItem-root {
+  background-color: #b2dfdb;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.MuiListItemSecondaryAction-root {
+  display: flex;
+  align-items: center;
+}
+
+.MuiIconButton-root {
+  color: #00796b;
+}
+
+.MuiIconButton-root:hover {
+  color: #004d40;
+}
